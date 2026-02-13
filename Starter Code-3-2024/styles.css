@@ -77,7 +77,6 @@ body
 
 .exercise-3 .green
 {
-  position: absolute;
   top: 20px;
   left: 20px;
 }
@@ -109,12 +108,11 @@ body
   position:absolute;
   bottom: 60px;
   right: 0;
-  justify-content: flex-end;
+  flex-direction: right;
 }
 
 .exercise-4 .yellow
 {
   position: absolute;
-  bottom: 0;
   right: 0;
 }
